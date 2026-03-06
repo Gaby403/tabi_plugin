@@ -1,0 +1,12 @@
+@media (max-width: 767px) {
+
+#btn-cta-mobile,
+#btn-cta-mobile2 {
+
+background-color:#EBEBE9 !important;
+color:#28221F !important;
+border-color:#FFFFFF !important;
+
+}
+
+}

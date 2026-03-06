@@ -1,0 +1,64 @@
+.elementor-swiper {
+position:relative;
+}
+
+.elementor-swiper-button-next,
+.elementor-swiper-button-prev{
+
+color:#28221F !important;
+border-radius:50%;
+width:50px;
+height:50px;
+display:flex;
+align-items:center;
+justify-content:center;
+border:1px solid #28221F;
+z-index:10;
+
+}
+
+@media (min-width:768px){
+
+.elementor-swiper-button-next{
+bottom:calc(-1*(50px/2) - 35px) !important;
+left:calc(50% + 30px) !important;
+top:auto !important;
+transform:translateX(-50%) !important;
+}
+
+.elementor-swiper-button-prev{
+bottom:calc(-1*(50px/2) - 35px) !important;
+left:calc(50% - 30px) !important;
+top:auto !important;
+transform:translateX(-50%) !important;
+}
+
+}
+
+@media (max-width:767px){
+
+.elementor-swiper-button-next,
+.elementor-swiper-button-prev{
+
+width:30px;
+height:30px;
+
+}
+
+.elementor-swiper-button-next{
+
+top:50% !important;
+right:4px !important;
+transform:translateY(-50%) !important;
+
+}
+
+.elementor-swiper-button-prev{
+
+top:50% !important;
+left:4px !important;
+transform:translateY(-50%) !important;
+
+}
+
+}
